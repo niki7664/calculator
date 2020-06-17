@@ -1,0 +1,42 @@
+#mainbox{
+    width:300px;
+    height: 300px;
+    border: solid black 4px;
+    padding: 10px;
+    background-color: lightgrey;
+    
+    
+}
+#display{
+    width: 1fr;
+    height: 50px;
+    border: solid red 2px;
+    margin:5px;
+    background-color: white;
+    font-size: 40px;
+    padding: 5px;
+    text-align: right;
+}
+.table{
+    width: 100%;
+    height: 75%;
+    border-spacing: 10px;
+    
+}
+.button{
+    width: 5px;
+    height: 5px;
+    border: solid green 2px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: aquamarine;
+}
+.button:active{
+    background-color: #b47be9;
+
+}
+

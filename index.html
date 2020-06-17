@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Simple Calculator</title>
+</head>
+<body>
+  <div id="mainbox">
+      <div id="display"></div>
+      <table class="table">
+          <tbody>
+              <tr>
+                  <td class="button" onclick="display('(')">(</td>
+                  <td class="button" onclick="display(')')">)</td>
+                  <td class="button" onclick="clearDisplay()">C</td>
+                  <td class="button" onclick="backspace()"><=</td>
+              </tr>
+
+              <tr>
+                <td class="button" onclick="display('1')">1</td>
+                <td class="button" onclick="display('2')">2</td>
+                <td class="button" onclick="display('3')">3</td>
+                <td class="button" onclick="display('/')">/</td>
+            </tr>
+
+            <tr>
+                <td class="button" onclick="display('4')">4</td>
+                <td class="button" onclick="display('5')">5</td>
+                <td class="button" onclick="display('6')">6</td>
+                <td class="button" onclick="display('*')">x</td>
+            </tr>
+            <tr>
+                <td class="button" onclick="display('7')">7</td>
+                <td class="button" onclick="display('8')">8</td>
+                <td class="button" onclick="display('9')">9</td>
+                <td class="button" onclick="display('-')">-</td>
+            </tr>
+            <tr>
+                <td class="button" onclick="display('.')">.</td>
+                <td class="button" onclick="display('0')">0</td>
+                <td class="button" onclick="solve()">=</td>
+                <td class="button" onclick="display('+')">+</td>
+            </tr>
+          </tbody>
+      </table>
+  </div> 
+
+  <script src="./script.js"></script> 
+  
+</body>
+</html>
